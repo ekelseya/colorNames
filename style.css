@@ -1,0 +1,147 @@
+* {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+header {
+	background-image: url("background.jpg");
+	padding: 2rem;
+}
+
+div {
+	padding: 4rem;
+}
+
+.indianred {
+	background-color: indianred;
+	color: white;
+}
+
+.lightcoral {
+	background-color: lightcoral;
+	color: white;
+}
+
+.salmon {
+	background-color: salmon;
+	color: white;
+}
+
+.darksalmon {
+	background-color: darksalmon;
+	color: white;
+}
+
+.crimson {
+	background-color: crimson;
+	color: white;
+}
+
+.red {
+	background-color: red;
+	color: white;
+}
+
+.firebrick {
+	background-color: firebrick;
+	color: white;
+}
+
+.darkred {
+	background-color: darkred;
+	color: white;
+}
+
+.pink {
+	background-color: pink;
+}
+
+.lightpink {
+	background-color: lightpink;
+}
+
+.hotpink {
+	background-color: hotpink;
+}
+
+.deeppink {
+	background-color: deeppink;
+	color: white;
+}
+
+.mediumvioletred {
+	background-color: mediumvioletred;
+	color: white;
+}
+
+.palevioletred {
+	background-color: palevioletred;
+}
+
+.lightsalmon {
+	background-color: lightsalmon;
+}
+
+.coral {
+	background-color: coral;
+}
+
+.tomato {
+	background-color: tomato;
+}
+
+.orangered {
+	background-color: orangered;
+}
+
+.darkorange {
+	background-color: darkorange;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.gold {
+	background-color: gold;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.lightyellow {
+	background-color: lightyellow;
+}
+
+.lemonchiffon {
+	background-color: lemonchiffon;
+}
+
+.lightgoldenrodyellow {
+	background-color: lightgoldenrodyellow;
+}
+
+.papayawhip {
+	background-color: papayawhip;
+}
+
+.moccasin {
+	background-color: moccasin;
+}
+
+.peachpuff {
+	background-color: peachpuff;
+}
+
+.palegoldenrod {
+	background-color: palegoldenrod;
+}
+
+.khaki {
+	background-color: khaki;
+}
+
+.darkkhaki {
+	background-color: darkkhaki;
+}
