@@ -1,147 +1,66 @@
-* {
-	font-family: 'Roboto', sans-serif;
-	text-align: center;
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap";
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: minmax(1fr, 500px);
+}
+@media (min-width: 34em) {
+  main {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
-header {
-	background-image: url("background.jpg");
-	padding: 2rem;
+.heading {
+  grid-row: span 3;
+}
+
+.wide {
+  grid-row: span 2;
+}
+@media (min-width: 34em) {
+  .wide {
+    grid-column: span 3;
+  }
+}
+
+body {
+  background: #424242;
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.03rem;
+  line-height: 1;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
 }
 
 div {
-	padding: 4rem;
+  color: #fff;
+  padding: 0.85rem;
+}
+@media (min-width: 34em) {
+  div {
+    padding: 2rem;
+  }
 }
 
-.indianred {
-	background-color: indianred;
-	color: white;
+h2 {
+  font-size: 2rem;
+  display: inline-block;
+  font-weight: 300;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
 }
 
-.lightcoral {
-	background-color: lightcoral;
-	color: white;
+p {
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
-.salmon {
-	background-color: salmon;
-	color: white;
-}
-
-.darksalmon {
-	background-color: darksalmon;
-	color: white;
-}
-
-.crimson {
-	background-color: crimson;
-	color: white;
-}
-
-.red {
-	background-color: red;
-	color: white;
-}
-
-.firebrick {
-	background-color: firebrick;
-	color: white;
-}
-
-.darkred {
-	background-color: darkred;
-	color: white;
-}
-
-.pink {
-	background-color: pink;
-}
-
-.lightpink {
-	background-color: lightpink;
-}
-
-.hotpink {
-	background-color: hotpink;
-}
-
-.deeppink {
-	background-color: deeppink;
-	color: white;
-}
-
-.mediumvioletred {
-	background-color: mediumvioletred;
-	color: white;
-}
-
-.palevioletred {
-	background-color: palevioletred;
-}
-
-.lightsalmon {
-	background-color: lightsalmon;
-}
-
-.coral {
-	background-color: coral;
-}
-
-.tomato {
-	background-color: tomato;
-}
-
-.orangered {
-	background-color: orangered;
-}
-
-.darkorange {
-	background-color: darkorange;
-}
-
-.orange {
-	background-color: orange;
-}
-
-.gold {
-	background-color: gold;
-}
-
-.yellow {
-	background-color: yellow;
-}
-
-.lightyellow {
-	background-color: lightyellow;
-}
-
-.lemonchiffon {
-	background-color: lemonchiffon;
-}
-
-.lightgoldenrodyellow {
-	background-color: lightgoldenrodyellow;
-}
-
-.papayawhip {
-	background-color: papayawhip;
-}
-
-.moccasin {
-	background-color: moccasin;
-}
-
-.peachpuff {
-	background-color: peachpuff;
-}
-
-.palegoldenrod {
-	background-color: palegoldenrod;
-}
-
-.khaki {
-	background-color: khaki;
-}
-
-.darkkhaki {
-	background-color: darkkhaki;
-}
