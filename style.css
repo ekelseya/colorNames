@@ -19,7 +19,7 @@ h1 {
 }
 
 .block {
-  color: white;
+  color: black;
   padding: 0.85rem;
   width: 28%;
   border-radius: 20px;
@@ -45,6 +45,13 @@ p {
   line-height: 1.5;
 }
 
-.dark-text {
-  color: black;
+.light-text {
+  color: white;
+}
+
+@media only screen and (max-width: 860px)  {
+  .block {
+    width: 94.6%;
+    margin: 1.66%;
+  }
 }
